@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容1"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:id="@+id/text_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text_desc"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="10dp"
+        android:drawableLeft="@mipmap/src_ictwo"
+        android:drawablePadding="5dp"
+        android:padding="3dp"
+        android:id="@+id/textView4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容3"
+        android:textSize="10dp"
+        android:layout_below="@+id/text_desc"
+        android:layout_alignLeft="@+id/text_desc"
+        android:layout_alignStart="@+id/text_desc"
+        android:layout_marginTop="10dp"
+        android:id="@+id/text_time" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内容4"
+        android:id="@+id/text_desc"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/text_title"
+        android:layout_alignLeft="@+id/text_title"
+        android:layout_alignStart="@+id/text_title"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>
